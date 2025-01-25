@@ -1,0 +1,143 @@
+{
+  "basics": {
+    "name": "Gerzon Rangel",
+    "label": "Software Developer",
+    "image": "/me.webp",
+    "email": "gerzonarletrangel@gmail.com",
+    "online": "Disponible para trabajar",
+    "cv": "/Curriculum-Sebastian.pdf",
+    "phone": "+57 3166504814",
+    "country": "Colombia",
+    "city": "Valledupar",
+    "url": "https://gerzon-portafolio.vercel.app/",
+    "summary": "Programador con experiencia en la creación de aplicaciones web impactantes y funcionales. Me apasiona transformar ideas en soluciones innovadoras. Comencé mi camino en la programación a los 16 años con un curso en el SENA, explorando AppInventor y MySQL, y actualmente curso Ingeniería de Sistemas. Creo firmemente en el trabajo en equipo y el aprendizaje continuo, disfrutando compartir conocimientos y contribuir al Open Source. Mi objetivo es aportar creatividad, técnica y dedicación para el éxito de cada proyecto que emprendo.",
+    "about": [
+      "¡Hola! Soy Gerzon Rangel, Desarrollador Frontend apasionado por la tecnología, el aprendizaje continuo y la colaboración. Con más de 2 años de experiencia en el desarrollo de aplicaciones web, he enfocado mi carrera en crear interfaces funcionales y atractivas que brinden experiencias memorables a los usuarios. Mi especialización en JavaScript y frameworks modernos como ReactJS y NextJS, junto con un dominio avanzado de Tailwind CSS, me permite transformar ideas en soluciones innovadoras y efectivas. Comencé mi viaje en la programación a los 16 años con un curso básico en el SENA, explorando AppInventor y MySQL, lo que despertó mi entusiasmo por el desarrollo web. Actualmente, estoy cursando Ingeniería de Sistemas, consolidando mis habilidades técnicas y mi visión profesional. En mi tiempo libre, suelo programar, compartir ideas con amigos y explorar nuevas tecnologías. También disfruto practicar y ver fútbol, una de mis mayores pasiones fuera del ámbito tecnológico. Me encanta trabajar en equipos diversos, construir relaciones sólidas con mis compañeros y contribuir al Open Source, compartiendo conocimientos y desarrollando proyectos que marquen la diferencia. Si buscas un desarrollador frontend que combine creatividad, técnica y entusiasmo, ¡estoy listo para ser parte de tu equipo!"
+    ],
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Gerzon Rangel",
+        "url": "https://www.linkedin.com/in/gerzon-rangel-258109211"
+      },
+      {
+        "network": "GitHub",
+        "username": "Gerzon Rangel",
+        "url": "https://github.com/gerzon05"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Helexium",
+      "title": "Desarrollador Frontend",
+      "location": "Bogota, Colombia",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "26 Agus 2024",
+      "endDate": "Presente",
+      "color": "blue.100",
+      "description": [
+        "Crear interfaces de usuario atractivas y funcionales para el Software de Helexium.",
+        "Se desarrollo nuevas funcionalidaddes al Software para tener registro de Cuentas contables y Nomina electronica."
+      ],
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "services": [
+    "Puedo ayudarte con asesorias y mentorias",
+    "Puedes contactarme para un servicio temporal",
+    "Puedo ayudarte a impulsar tu negocio con una pagina Web",
+    "Estoy abierto a oportunidades laborales"
+  ],
+  "education": [],
+  "awards": [],
+  "certificates": [],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "A1"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Shooped",
+      "github": "https://github.com/openlabs-dev/shopped",
+      "isActive": false,
+      "colSpan": true,
+      "description": "A landing page powered by Open UI.",
+      "url": "https://store.openlabs.online",
+      "techs": [
+        {
+          "icon": "Typescript",
+          "tech": "TypeScript"
+        },
+        {
+          "icon": "React",
+          "tech": "React"
+        },
+        {
+          "icon": "Tailwindcss",
+          "tech": "TailwindCSS"
+        },
+        {
+          "icon": "Nextjs",
+          "tech": "Next.js"
+        }
+      ]
+    },
+    {
+      "name": "Open UI",
+      "isActive": false,
+      "colSpan": false,
+      "github": "https://github.com/openlabs-dev/ui",
+      "description": "A design system built with Tailwindcss and Radix UI.",
+      "url": "https://ui.openlabs.online",
+      "techs": [
+        {
+          "icon": "Typescript",
+          "tech": "TypeScript"
+        },
+        {
+          "icon": "React",
+          "tech": "React"
+        },
+        {
+          "icon": "Tailwindcss",
+          "tech": "TailwindCSS"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "url": "https://api.whatsapp.com/send?phone=+573166504814",
+      "icon": "Whatsapp",
+      "name": "WhatsApp",
+      "download": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/gerzon-rangel-258109211",
+      "icon": "Linkedin",
+      "name": "LinkedIn",
+      "download": false
+    },
+    {
+      "url": "https://github.com/gerzon05",
+      "icon": "Github",
+      "name": "GitHub",
+      "download": false
+    },
+    {
+      "url": "/Curriculum-gerzon.pdf",
+      "icon": "FileText",
+      "name": "Download CV",
+      "download": false
+    }
+  ]
+}
