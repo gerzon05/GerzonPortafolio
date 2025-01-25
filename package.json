@@ -11,13 +11,13 @@
     "prepare": "panda codegen"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
+    "@emailjs/browser": "4.4.1",
     "next": "15.0.3",
     "next-themes": "0.4.3",
     "next-view-transitions": "0.3.2",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
-    "sonner": "^1.7.2"
+    "sonner": "1.7.2"
   },
   "devDependencies": {
     "@pandacss/dev": "0.48.0",
