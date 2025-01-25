@@ -1,5 +1,4 @@
 @layer reset, base, tokens, recipes, utilities;
-
 ::view-transition-old(root),
 ::view-transition-new(root) {
   animation: none;
@@ -19,3 +18,4 @@
 html {
   scroll-behavior: smooth;
 }
+
