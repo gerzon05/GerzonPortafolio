@@ -1,7 +1,11 @@
 import { cva, type RecipeVariantProps } from '@/styled-system/css'
 import { panda } from '@/styled-system/jsx'
 
-const buttonStyle = cva({
+const inputStyle = cva({
+  base: {
+    padding: '.25rem .5rem',
+    width: 'full',
+  },
   variants: {
     variant: {
       transparent: {
@@ -14,25 +18,22 @@ const buttonStyle = cva({
       },
       secondary: {
         bg: 'green.500',
-      },
+      }
     },
     border: {
       none: {
         border: 'none',
       },
       primary: {
-        border: '.1rem solid',
+        border: '.0625rem solid',
         borderColor: 'gray.100',
-        _dark: { borderColor: 'gray.950' },
+        _focusVisible: { outline: 'none', border: "2px solid", borderColor: 'gray.100' },
+        _dark: { borderColor: 'gray.950', _focusVisible: { outline: 'none', border: "2px solid", borderColor: 'gray.950' }, }
       },
       secondary: {
-        border: '.1rem solid',
+        border: '.0625rem solid',
         borderColor: 'green.500',
-      },
-      neutro: {
-        border: '.1rem solid',
-        borderColor: 'gray.100',
-        _dark: { borderColor: 'gray.600' },
+        _focusVisible: { outline: 'none', border: "2px solid", borderColor: 'green.500' }
       }
     },
     rounded: {
@@ -57,36 +58,21 @@ const buttonStyle = cva({
         fontSize: '1rem',
       },
       medium: {
-        fontSize: '1.2rem',
+        fontSize: '1.5rem',
       },
       large: {
-        fontSize: '1.7rem',
+        fontSize: '2rem',
       },
     },
-    dimension: {
-      small: {
-        padding: '.25rem .5rem',
-      },
-      medium: {
-        padding: '.5rem 1rem',
-      },
-      large: {
-        padding: '1rem 2rem',
-      },
-      icon: {
-        padding: '.5rem',
-      }
-    }
   },
   defaultVariants: {
     variant: 'primary',
     size: 'small',
-    border: 'none',
-    rounded: 'none',
-    dimension: 'small',
+    border: 'primary',
+    rounded: 'small',
   },
 })
 
-export type ButtonVariants = RecipeVariantProps<typeof buttonStyle>
+export type InputVariants = RecipeVariantProps<typeof inputStyle>
 
-export const Button = panda('button', buttonStyle)
+export const Input = panda('input', inputStyle)
