@@ -9,7 +9,9 @@ import Tailwindcss from '../icons/tailwind'
 import Typescript from '../icons/typescript'
 import curriculumJSON from '../static/curriculum.json' with { type: 'json' }
 
-const iconMap: { [key: string]: React.ComponentType<any> } = {
+const iconMap: {
+  [key: string]: React.ComponentType<React.SVGProps<SVGSVGElement>>
+} = {
   Tailwindcss,
   React,
   Typescript,

@@ -8,15 +8,15 @@ import { toast } from 'sonner'
 import { Paragraph } from '../components/recipes/paragraph'
 import { Button } from '../components/ui/button'
 import { Input } from '../components/ui/input'
-import Email from '../icons/email'
 import FileText from '../icons/file'
 import Github from '../icons/github'
 import Linkedin from '../icons/linkedin'
 import Whatsapp from '../icons/whatsapp'
 
-const iconMap: { [key: string]: React.ComponentType<any> } = {
+const iconMap: {
+  [key: string]: React.ComponentType<React.SVGProps<SVGSVGElement>>
+} = {
   Github,
-  Email,
   Whatsapp,
   Linkedin,
   FileText,
@@ -42,14 +42,16 @@ export default function Contact() {
         )
         .then(
           (result) => {
-            result.text === 'OK'
-              ? toast.success('Mensaje enviado con éxito')
-              : toast.error(
+            if (result.text === 'OK') {
+              toast.success('Mensaje enviado con éxito')
+            } else {
+              toast.error(
                 'Ocurrió un error al enviar el mensaje, intenta de nuevo',
               )
+            }
             form.current?.reset()
           },
-          (_) => {
+          () => {
             toast.error(
               'Ocurrió un error al enviar el mensaje, intenta de nuevo',
             )
@@ -59,10 +61,10 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className={ css({ padding: '5' }) }>
+    <section id="contact" className={css({ padding: '5' })}>
       <panda.h2
         fontSize="xl"
-        md={ { fontSize: '2xl' } }
+        md={{ fontSize: '2xl' }}
         fontWeight="bold"
         textWrap="balance"
         margin="0"
@@ -71,23 +73,23 @@ export default function Contact() {
       </panda.h2>
       <Flex
         flexDirection="column"
-        md={ { flexDirection: 'row' } }
+        md={{ flexDirection: 'row' }}
         justifyContent="space-between"
         alignItems="start"
         gap="5"
-        className={ css({ marginTop: '10' }) }
+        className={css({ marginTop: '10' })}
       >
-        <Box width="full" md={ { width: '50%' } } gap="10" padding="5">
+        <Box width="full" md={{ width: '50%' }} gap="10" padding="5">
           <panda.h3 fontSize="2xl" fontWeight="bold" margin="0">
             Email
           </panda.h3>
-          <Paragraph className={ css({ color: 'gray.500' }) }>
+          <Paragraph className={css({ color: 'gray.500' })}>
             Llena el formulario y me pondré en contacto contigo pronto.
           </Paragraph>
           <form
-            ref={ form }
-            onSubmit={ sendEmail }
-            className={ css({ spaceY: '5', marginTop: '5' }) }
+            ref={form}
+            onSubmit={sendEmail}
+            className={css({ spaceY: '5', marginTop: '5' })}
           >
             <div>
               <Input
@@ -114,7 +116,7 @@ export default function Contact() {
                 placeholder="Tu mensaje"
                 aria-label="Tu mensaje"
                 required
-                className={ css({
+                className={css({
                   padding: '.25rem .5rem',
                   width: 'full',
                   height: '36',
@@ -138,46 +140,46 @@ export default function Contact() {
                     },
                   },
                   rounded: 'md',
-                }) }
+                })}
               />
             </div>
             <Button
               border="neutro"
               size="medium"
               rounded="medium"
-              className={ css({ _hover: { transform: 'scale(1.1)' } }) }
+              className={css({ _hover: { transform: 'scale(1.1)' } })}
               type="submit"
             >
               Enviar mensaje
             </Button>
           </form>
         </Box>
-        <Box width="full" md={ { width: '50%' } } padding="5">
+        <Box width="full" md={{ width: '50%' }} padding="5">
           <panda.h3 fontSize="2xl" fontWeight="bold" margin="0">
             Servicios
           </panda.h3>
           <ul
-            className={ css({
+            className={css({
               listStyle: 'circle',
               marginLeft: '5',
               paddingTop: '3',
-            }) }
+            })}
           >
-            { services.map((service, index) => (
-              <li key={ index } className={ css({ color: 'gray.500' }) }>
-                { service }
+            {services.map((service, index) => (
+              <li key={index} className={css({ color: 'gray.500' })}>
+                {service}
               </li>
-            )) }
+            ))}
           </ul>
-          <Box className={ css({ spaceY: '3', marginTop: '5' }) }>
-            { contacts.map((contact, index) => {
+          <Box className={css({ spaceY: '3', marginTop: '5' })}>
+            {contacts.map((contact, index) => {
               const Icon = iconMap[contact.icon as keyof typeof iconMap]
               return (
                 <a
-                  download={ contact.download }
-                  href={ contact.url }
+                  download={contact.download}
+                  href={contact.url}
                   target="_blank"
-                  className={ css({
+                  className={css({
                     width: 'full',
                     display: 'flex',
                     alignItems: 'center',
@@ -190,16 +192,16 @@ export default function Contact() {
                     padding: '2 6',
                     borderRadius: 'sm',
                     _hover: { background: 'gray.100' },
-                  }) }
-                  key={ index }
+                  })}
+                  key={index}
                 >
-                  { Icon && (
-                    <Icon className={ css({ marginRight: 2, fontSize: 'lg' }) } />
-                  ) }
-                  { contact.name }
+                  {Icon && (
+                    <Icon className={css({ marginRight: 2, fontSize: 'lg' })} />
+                  )}
+                  {contact.name}
                 </a>
               )
-            }) }
+            })}
           </Box>
         </Box>
       </Flex>

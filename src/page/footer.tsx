@@ -3,7 +3,7 @@ import curriculumJSON from '@/src/static/curriculum.json' with { type: 'json' }
 import { Box, Container, Flex, panda, Stack } from '@/styled-system/jsx'
 
 export default function Footer() {
-  const { name, label, email } = curriculumJSON.basics
+  const { name, label } = curriculumJSON.basics
   return (
     <Container mt="8">
       <panda.footer>
