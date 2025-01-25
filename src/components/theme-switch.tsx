@@ -4,6 +4,8 @@ import { css } from '@/styled-system/css'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
 import { flushSync } from 'react-dom'
+import { Moon } from '../icons/moon'
+import Sun from '../icons/sun'
 
 // import { MoonIcon, SunIcon } from '@/src/icons'
 
@@ -78,7 +80,7 @@ export default function ThemeSwitch() {
   if (!mounted)
     return (
       <div
-        className={ css({
+        className={css({
           rounded: 'full',
           bg: 'neutral.200',
           animationName: 'pulse',
@@ -88,7 +90,7 @@ export default function ThemeSwitch() {
           animationTimingFunction: 'ease-in-out',
           h: '1.9em',
           w: '1.9em',
-        }) }
+        })}
         role="status"
         aria-label="Loading"
       />
@@ -96,18 +98,18 @@ export default function ThemeSwitch() {
 
   return (
     <button
-      onClick={ (e) =>
+      onClick={(e) =>
         toggleTheme(e as unknown as MouseEvent, isDark ? 'light' : 'dark')
       }
-      className={ css({
+      className={css({
         cursor: 'pointer',
-      }) }
+      })}
     >
-      { isDark ? (
-        <div>🌑</div>
+      {isDark ? (
+        <Moon className={css({ fontSize: '25px' })} />
       ) : (
-        <div>☀️</div>
-      ) }
+        <Sun className={css({ fontSize: '25px' })} />
+      )}
     </button>
   )
 }
