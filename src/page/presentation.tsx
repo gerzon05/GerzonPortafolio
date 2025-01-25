@@ -8,10 +8,16 @@ import { Paragraph } from '../components/recipes/paragraph'
 export default function Presentation() {
   const { name, label, summary, online, country, city } = curriculumJSON.basics
   return (
-    <Flex id='home' flexDirection="column" lg={ { flexDirection: 'row' } } gap="20" py="10">
+    <Flex
+      id="home"
+      flexDirection="column"
+      lg={{ flexDirection: 'row' }}
+      gap="20"
+      py="10"
+    >
       <Box
         display="flex"
-        lg={ { width: 'fit-content' } }
+        lg={{ width: 'fit-content' }}
         justifyContent="center"
         alignItems="center"
       >
@@ -21,33 +27,33 @@ export default function Presentation() {
           <img
             src="/gerzonfoto.jpg"
             alt="placeholder"
-            className={ css({
+            className={css({
               borderRadius: '20px',
               width: '300px',
               md: { width: '400px' },
-            }) }
-            width={ 400 }
-            height={ 400 }
+            })}
+            width={400}
+            height={400}
           />
         </picture>
       </Box>
       <Box flex="1" display="flex" justifyContent="center" alignItems="center">
         <Box width="full">
           <Badge bordered="green" animation="pulse" radius="md">
-            { online }
+            {online}
           </Badge>
           <panda.h2
             fontSize="4xl"
-            md={ { fontSize: '5xl' } }
+            md={{ fontSize: '5xl' }}
             fontWeight="bold"
             textWrap="balance"
             letterSpacing="4"
             margin="0"
           >
-            { name }
+            {name}
           </panda.h2>
           <Paragraph weight="md" size="lg" fontStyle="italic" letterSpacing="2">
-            { label }
+            {label}
           </Paragraph>
           <Badge
             animation="pulse"
@@ -59,11 +65,11 @@ export default function Presentation() {
             radius="md"
           >
             <Location
-              className={ css({ fontSize: '25px', color: 'blue.100' }) }
-            />{ ' ' }
-            { country } - { city }
+              className={css({ fontSize: '25px', color: 'blue.100' })}
+            />{' '}
+            {country} - {city}
           </Badge>
-          <Paragraph color="neutral.500">{ summary }</Paragraph>
+          <Paragraph color="neutral.500">{summary}</Paragraph>
         </Box>
       </Box>
     </Flex>

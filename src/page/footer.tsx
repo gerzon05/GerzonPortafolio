@@ -12,16 +12,22 @@ export default function Footer() {
             flexDirection="column"
             alignItems="center"
             justifyContent="space-between"
-            md={ { flexDirection: 'row' } }
+            md={{ flexDirection: 'row' }}
           >
-            <Box mb="4" md={ { mb: '0' } }>
+            <Box mb="4" md={{ mb: '0' }}>
               <panda.h2 fontSize="xl" fontWeight="semibold">
-                { name }
+                {name}
               </panda.h2>
-              <panda.p fontSize="xs" textAlign="center" md={ { textAlign: "start" } }>{ label }</panda.p>
+              <panda.p
+                fontSize="xs"
+                textAlign="center"
+                md={{ textAlign: 'start' }}
+              >
+                {label}
+              </panda.p>
             </Box>
             <Paragraph textAlign="center">
-              © { new Date().getFullYear() } { name }. All rights reserved.
+              © {new Date().getFullYear()} {name}. All rights reserved.
             </Paragraph>
           </Flex>
         </Stack>

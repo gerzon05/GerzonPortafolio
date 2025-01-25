@@ -18,7 +18,7 @@ const inputStyle = cva({
       },
       secondary: {
         bg: 'green.500',
-      }
+      },
     },
     border: {
       none: {
@@ -27,14 +27,29 @@ const inputStyle = cva({
       primary: {
         border: '.0625rem solid',
         borderColor: 'gray.100',
-        _focusVisible: { outline: 'none', border: "2px solid", borderColor: 'gray.100' },
-        _dark: { borderColor: 'gray.950', _focusVisible: { outline: 'none', border: "2px solid", borderColor: 'gray.950' }, }
+        _focusVisible: {
+          outline: 'none',
+          border: '2px solid',
+          borderColor: 'gray.100',
+        },
+        _dark: {
+          borderColor: 'gray.950',
+          _focusVisible: {
+            outline: 'none',
+            border: '2px solid',
+            borderColor: 'gray.950',
+          },
+        },
       },
       secondary: {
         border: '.0625rem solid',
         borderColor: 'green.500',
-        _focusVisible: { outline: 'none', border: "2px solid", borderColor: 'green.500' }
-      }
+        _focusVisible: {
+          outline: 'none',
+          border: '2px solid',
+          borderColor: 'green.500',
+        },
+      },
     },
     rounded: {
       none: {

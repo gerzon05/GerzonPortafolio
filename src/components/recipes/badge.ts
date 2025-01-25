@@ -67,7 +67,7 @@ export const badge = cva({
       },
       full: {
         rounded: 'full',
-      }
+      },
     },
   },
 

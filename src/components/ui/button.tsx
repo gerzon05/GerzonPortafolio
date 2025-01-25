@@ -33,7 +33,7 @@ const buttonStyle = cva({
         border: '.1rem solid',
         borderColor: 'gray.100',
         _dark: { borderColor: 'gray.600' },
-      }
+      },
     },
     rounded: {
       none: {
@@ -75,8 +75,8 @@ const buttonStyle = cva({
       },
       icon: {
         padding: '.5rem',
-      }
-    }
+      },
+    },
   },
   defaultVariants: {
     variant: 'primary',

@@ -38,10 +38,10 @@ export default function RootLayout({
   return (
     <ViewTransitions>
       <html lang="es" suppressHydrationWarning>
-        <body className={ `${onest.className} }` }>
+        <body className={`${onest.className} }`}>
           <NexThemes attribute="class" defaultTheme="system" enableSystem>
-            <Toaster position='top-center' />
-            { children }
+            <Toaster position="top-center" />
+            {children}
           </NexThemes>
         </body>
       </html>
