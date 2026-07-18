@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200">
+  <text x="220" y="80" text-anchor="middle" dominant-baseline="central" fill="#0F6E56" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="96" letter-spacing="4">GR</text>
+  <line x1="110" y1="138" x2="330" y2="138" stroke="#0F6E56" stroke-width="3"/>
+  <text x="220" y="164" text-anchor="middle" dominant-baseline="central" fill="#0F6E56" font-family="Helvetica, Arial, sans-serif" font-size="15" letter-spacing="9">developer</text>
+</svg>

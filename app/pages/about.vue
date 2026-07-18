@@ -1,6 +1,8 @@
 <script setup lang="ts">
 const { about, basics, profiles, labels, skills, education, languages, work } = usePortfolioContent()
 
+useHead({ title: () => labels.value.about.title })
+
 const topSkills = computed(() => [...skills.value.frontend, ...skills.value.backend].slice(0, 8))
 const currentEducation = computed(() => education.value[0])
 const currentWork = computed(() => work.value[0])

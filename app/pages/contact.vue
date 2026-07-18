@@ -2,6 +2,8 @@
 const { locale } = usePortfolioLocale()
 const { basics, contacts, labels } = usePortfolioContent()
 
+useHead({ title: () => labels.value.contact.title })
+
 const emailCopied = ref(false)
 const form = reactive({
   name: '',

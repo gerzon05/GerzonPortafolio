@@ -2,6 +2,8 @@
 const { locale } = usePortfolioLocale()
 const { basics, skills, education, languages, services, labels } = usePortfolioContent()
 
+useHead({ title: () => labels.value.skills.title })
+
 const skillGroups = computed(() =>
   locale.value === 'en'
     ? [

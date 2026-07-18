@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const { work, labels } = usePortfolioContent()
+
+useHead({ title: () => labels.value.experience.title })
 </script>
 
 <template>

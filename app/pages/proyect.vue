@@ -2,6 +2,8 @@
 const { locale } = usePortfolioLocale()
 const { projects, labels } = usePortfolioContent()
 
+useHead({ title: () => labels.value.projects.title })
+
 const totalTech = computed(() =>
   new Set(projects.value.flatMap((project) => project.techs)).size,
 )
