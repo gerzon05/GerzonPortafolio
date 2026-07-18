@@ -1,0 +1,203 @@
+{
+  "basics": {
+    "name": "Gerzon Rangel",
+    "label": "Full Stack Developer",
+    "email": "gerzonarletrangel@gmail.com",
+    "online": "Disponible para nuevos retos",
+    "cv": "/Curriculum-Gerzon-Rangel.pdf",
+    "phone": "+57 3166504814",
+    "country": "Colombia",
+    "city": "Valledupar",
+    "url": "https://www.gerzonrangel.xyz",
+    "summary": "Desarrollador Full Stack con sólida experiencia en la creación de aplicaciones web escalables y arquitectura de software. Especializado en el ecosistema JavaScript/TypeScript (Vue 3, Node.js, NestJS) y entornos .NET. Mi enfoque combina la resolución de problemas complejos, como motores de importación masiva y constructores no-code, con una visión orientada al usuario y la eficiencia operativa."
+  },
+  "about": [
+    "¡Hola! Soy Gerzon Rangel, un apasionado por transformar ideas en soluciones tecnológicas de alto impacto. Con más de 2 años de experiencia, he evolucionado desde el desarrollo frontend hacia un perfil Full Stack integral. Actualmente trabajo para el desarrollo de herramientas críticas en Alegrya | Eco Efici, donde diseño arquitecturas reutilizables y sistemas de automatización que optimizan procesos comerciales. Soy estudiante de Ingeniería de Sistemas en la UNAD, lo que me permite aplicar una base académica sólida a retos técnicos modernos como el manejo de microservicios, contenedores con Docker y metodologías ágiles."
+  ],
+  "profiles": [
+    {
+      "network": "LinkedIn",
+      "username": "Gerzon Rangel",
+      "url": "https://www.linkedin.com/in/gerzon-rangel-258109211"
+    },
+    {
+      "network": "GitHub",
+      "username": "Gerzon Rangel",
+      "url": "https://github.com/gerzon05"
+    }
+  ],
+  "contacts": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/gerzon-rangel-258109211"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/gerzon05"
+    }
+  ],
+  "work": [
+    {
+      "company": "Alegrya | Eco Efici",
+      "title": "Software Developer",
+      "location": "Valledupar, Colombia",
+      "startDate": "Agosto 2025",
+      "endDate": "Presente",
+      "stack": ["Vue 3", "Node.js", "PostgreSQL"],
+      "description": [
+        "Arquitectura de Builder No-Code: Lideré el desarrollo de un generador dinámico de menús digitales y landing pages con un sistema de widgets 100% configurables.",
+        "Gestión Dinámica de Layouts: Desarrollé un motor de plantillas personalizables con generación automática de códigos QR únicos por negocio.",
+        "Integración de Pedidos en Tiempo Real: Implementé la lógica de procesamiento de pedidos conectando la interfaz del cliente con el sistema administrativo.",
+        "Motor de Importación Masiva Inteligente: Diseñé una herramienta genérica de importación desde Excel con mapeo dinámico de columnas y validación en tiempo real, reduciendo el tiempo de desarrollo de nuevas importaciones en un 80%.",
+        "Arquitectura de CRM: Implementé un sistema integral para la administración de clientes, asignación dinámica de asesores y seguimiento de ciclos de vida.",
+        "Sistema de Ticketing y Soporte: Desarrollé un módulo de resolución de incidencias para optimizar los tiempos de respuesta técnica.",
+        "Planificador de Acciones Comerciales: Creé una agenda automatizada para la programación de llamadas y reuniones, mejorando la productividad del equipo comercial."
+      ]
+    },
+    {
+      "company": "Helexium",
+      "title": "Frontend Developer",
+      "location": "Bogotá, Colombia",
+      "startDate": "26 Ago 2024",
+      "endDate": "30 Ago 2025",
+      "description": [
+        "Creación de interfaces de usuario atractivas y funcionales para el software core de la empresa.",
+        "Desarrollo de nuevas funcionalidades para módulos de cuentas contables y nómina electrónica."
+      ]
+    }
+  ],
+  "skills": {
+    "frontend": ["Vue.js", "Nuxt.js", "ReactJS", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS"],
+    "backend": [".NET (C#)", "Node.js", "NestJS", "Prisma ORM", "Sequelize"],
+    "database": ["PostgreSQL", "MySQL"],
+    "tools": ["Docker", "Git", "GitHub", "Metodologías Ágiles", "Excel Data Mapping"]
+  },
+  "services": [
+    "Desarrollo Full Stack de aplicaciones web",
+    "Arquitectura de software escalable",
+    "Automatización de procesos comerciales",
+    "Implementación de módulos CRM y soporte",
+    "Integraciones con APIs y sistemas administrativos"
+  ],
+  "education": [
+    {
+      "institution": "Universidad Nacional Abierta y a Distancia (UNAD)",
+      "area": "Ingeniería de Sistemas",
+      "studyType": "Pregrado",
+      "status": "En curso"
+    },
+    {
+      "institution": "SYNTACTIC",
+      "area": "Programación Frontend y Backend",
+      "studyType": "Curso Profesional",
+      "description": "Iniciación técnica en desarrollo web y bases de datos."
+    }
+  ],
+  "languages": [
+    { "language": "Español", "fluency": "Nativo" },
+    { "language": "Inglés", "fluency": "A1" }
+  ],
+  "projects": [
+    {
+      "name": "Shopped",
+      "description": "Landing page de alto rendimiento desarrollada con tecnologías modernas.",
+      "url": "",
+      "github":"",
+      "type": "Publico",
+      "techs": ["TypeScript", "React", "Next.js", "TailwindCSS"]
+    },
+    {
+      "name": "Open UI",
+      "description": "Sistema de diseño construido para estandarizar componentes de UI.",
+      "url": "",
+      "github":"",
+      "type": "Publico",
+      "techs": ["TypeScript", "React", "TailwindCSS"]
+    }
+  ],
+  "translations": {
+    "en": {
+      "basics": {
+        "label": "Full Stack Developer",
+        "online": "Open to new opportunities",
+        "summary": "Full Stack Developer with strong experience building scalable web applications and software architectures. Specialized in the JavaScript/TypeScript ecosystem (Vue 3, Node.js, NestJS) and .NET environments. I focus on solving complex challenges such as bulk import engines and no-code builders while keeping user experience and operational efficiency at the center."
+      },
+      "about": [
+        "Hi! I’m Gerzon Rangel, passionate about turning ideas into high-impact technology solutions. With 2+ years of experience, I have grown from frontend development into a complete Full Stack profile. I currently lead the development of critical tools at Alegrya | Eco Efici, where I design reusable architectures and automation systems that optimize commercial processes. I am also a Systems Engineering student at UNAD, which helps me apply strong academic foundations to modern technical challenges such as microservices, Docker containers, and agile methodologies."
+      ],
+      "work": [
+        {
+          "company": "Alegrya | Eco Efici",
+          "title": "Software Developer",
+          "location": "Valledupar, Colombia",
+          "startDate": "August 2025",
+          "endDate": "Present",
+          "stack": ["Vue 3", "Node.js", "PostgreSQL"],
+          "description": [
+            "No-Code Builder Architecture: Led the development of a dynamic generator for digital menus and landing pages with a fully configurable widget system.",
+            "Dynamic Layout Management: Built a customizable template engine with automatic unique QR code generation for each business.",
+            "Real-Time Order Integration: Implemented order-processing logic connecting customer-facing interfaces with the admin platform.",
+            "Intelligent Bulk Import Engine: Designed a generic Excel import tool with dynamic column mapping and real-time validation, reducing development time for new imports by 80%.",
+            "CRM Architecture: Implemented an integrated system for customer management, dynamic advisor assignment, and lifecycle tracking.",
+            "Ticketing and Support System: Developed an incident-resolution module to improve technical response times.",
+            "Commercial Action Planner: Created an automated agenda for calls and meetings, improving sales team productivity."
+          ]
+        },
+        {
+          "company": "Helexium",
+          "title": "Frontend Developer",
+          "location": "Bogotá, Colombia",
+          "startDate": "Aug 26, 2024",
+          "endDate": "Aug 30, 2025",
+          "description": [
+            "Built attractive and functional user interfaces for the company’s core software.",
+            "Developed new features for accounting accounts and electronic payroll modules."
+          ]
+        }
+      ],
+      "skills": {
+        "frontend": ["Vue.js", "Nuxt.js", "ReactJS", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS"],
+        "backend": [".NET (C#)", "Node.js", "NestJS", "Prisma ORM", "Sequelize"],
+        "database": ["PostgreSQL", "MySQL"],
+        "tools": ["Docker", "Git", "GitHub", "Agile Methodologies", "Excel Data Mapping"]
+      },
+      "services": [
+        "Full Stack web application development",
+        "Scalable software architecture",
+        "Commercial process automation",
+        "CRM and support module implementation",
+        "API and administrative system integrations"
+      ],
+      "education": [
+        {
+          "institution": "Universidad Nacional Abierta y a Distancia (UNAD)",
+          "area": "Systems Engineering",
+          "studyType": "Bachelor's Degree",
+          "status": "In progress"
+        },
+        {
+          "institution": "SENA",
+          "area": "Frontend and Backend Programming",
+          "studyType": "Professional Course",
+          "description": "Technical foundation in web development and databases."
+        }
+      ],
+      "languages": [
+        { "language": "Spanish", "fluency": "Native" },
+        { "language": "English", "fluency": "A1" }
+      ],
+      "projects": [
+        {
+          "name": "Shopped",
+          "description": "High-performance landing page built with modern technologies.",
+          "techs": ["TypeScript", "React", "Next.js", "TailwindCSS"]
+        },
+        {
+          "name": "Open UI",
+          "description": "Design system created to standardize UI components.",
+          "techs": ["TypeScript", "React", "TailwindCSS"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-app-bg: #161616;
+  --color-app-surface: #1B1B1B;
+  --color-app-border: #262626;
+  --color-app-text: #C0C0C0;
+  --color-app-primary: #E63E21;
+  
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-app-bg text-app-text font-sans antialiased;
+
+    @apply selection:bg-app-primary selection:text-white; 
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-white font-medium tracking-tight;
+  }
+}
+
+@layer components {
+  .nav-pill {
+    @apply bg-app-surface border border-app-border rounded-4xl px-6 py-4 flex items-center justify-between shadow-sm backdrop-blur-md;
+  }
+
+  .bento-card {
+    @apply bg-app-surface border border-app-border rounded-3xl p-6 md:p-8 transition-all duration-300 hover:border-[#3a3a3a];
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center bg-app-primary text-white text-sm px-4 py-2 rounded-lg font-medium transition-all hover:opacity-90 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center bg-transparent border border-app-border text-app-text text-sm px-4 py-2 rounded-lg font-medium transition-all hover:text-white hover:border-gray-500 active:scale-95;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-app-border bg-app-bg text-[10px] text-app-text uppercase tracking-widest font-semibold;
+  }
+
+  .status-dot {
+    @apply w-2 h-2 rounded-full bg-app-primary animate-pulse;
+  }
+}
